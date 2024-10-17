@@ -1,0 +1,155 @@
+#wrap {
+  background: url("https://www.abyssrium.com/Abyssrium_KO/images/background.jpg") no-repeat center top;
+  background-size: cover;
+}
+#logo {
+  background: url("https://www.abyssrium.com/Abyssrium_KO/images/logo_w.png");
+  width: 220px;
+  height: 64px;
+  margin-top: 30px;
+  position: absolute;
+  display: block;
+
+}
+#logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#header {
+  background: url(https://www.abyssrium.com/Abyssrium_KO/images/headerDim.png) repeat-x left top;
+  width: 100%;
+  height: 140%;
+  background-size:auto 100%; 
+}
+.inner {
+  display: flex;
+}
+#gnb ul {
+  display: flex;
+}
+#gnb li {
+  margin-left: 30px;
+}
+#gnb a {
+  font-size: 30px;
+}
+#header .h_sns {
+display: flex;
+  margin: 10px;
+}
+#header .h_sns li {
+  margin-right: 40px;
+}
+#header .h_util {
+  display: flex;
+  margin-top: 60px;
+  font-size: 30px;
+}
+.inner .h_util .h_lang, 
+.inner .h_util .h_member { 
+  padding: 20px;
+  color: orange;
+  display: block; 
+  margin-left: 20px;
+}
+
+#mVisu {
+  width: 100%;
+  position: relative;
+
+  
+}
+#mVisu .bgmlg{
+  position: relative;
+  background-size: 2000px 2000px;
+  z-index: 3;
+  margin: 0;
+  padding: 0;
+}
+#mVisu .bglmg2 {
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 0;
+  z-index: 4;
+}
+#mVisu .bglmg2 img {
+width: 100%;
+}
+#mVisu .txt_box {
+  position: absolute;
+  left: 50%;
+  top: 15.5vw;
+  margin-left: -520px;
+  z-index: 7;
+}
+#mVisu .txt_box .tit {
+  font-size: 2.75em;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+#mVisu .txt_box .txt {
+  font-size: 1.15em;
+  font-weight: 500;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#mVisu .img1 img {
+  position: absolute;
+  width: 320px;
+  left: -20px;
+  top: 870px;
+}
+#mVisu .img2 img {
+  position: absolute;
+  width: 200px;
+  right: -20px;
+  top: 570px;
+}
+#mGames {
+  width: 100%;
+  position: relative;
+  margin-top: -520px;
+  z-index: 5;
+}
+.mGames_slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.mGames_slide .swiper-slide {
+  opacity: 0.8;
+}
+.mGames_slide .swiper-slide-active {
+  opacity: 1;
+} 
+.mGames_slide .img_box {
+  width: 100%;
+  min-width: 1920px;
+  position: relative;
+  left: 50%; top:0;
+  transform: translateX(-50%);
+}
+.mGames_slide .img_box img{
+  width: 100%;
+}
+.mGames_slide .txt_box { 
+  position:absolute; left:50%; 
+  top:240px; margin-left:-620px; 
+  z-index:30; overflow:hidden; 
+  text-align:center;
+}
+.mGames_slide .txt_box > div { 
+  float: right;
+  width: 100%;
+}
+.mGames_slide .txt_box .main_title .tit { 
+  opacity:1; transform:translateX(-50px)
+}
+.mGames_slide .txt_box .main_title .txt {
+  min-height:4.5em; 
+  opacity:1; transform:translateX(50px)
+}

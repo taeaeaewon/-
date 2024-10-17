@@ -1,0 +1,8 @@
+.awards { 
+    background-color: #272727;
+}
+.awards .inner {
+    display: flex;
+    width: 13.5%;
+    padding: 40px 0;
+}
